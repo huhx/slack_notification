@@ -6,7 +6,10 @@ void main(List<String> args) async {
     text: "person: Hello World. ${DateTime.now()}",
     blocks: [
       SectionBlock(
-        text: "Danny Torrence left the following review for your property:",
+        text: {
+          "type": "mrkdwn",
+          "text": "Danny Torrence left the following review for your property:"
+        },
       ),
       SectionBlock(
         fields: [

@@ -1,3 +1,6 @@
+## 1.2.2
+- add `VideoBlock`
+
 ## 1.2.1
 - update docs add image
 
