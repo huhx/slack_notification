@@ -126,15 +126,10 @@ class SectionBlock implements Block {
     this.accessory,
   });
 
-  /// The text for the block.
-  /// Maximum length for this field is 3000 characters.
-  /// This field is not required if a valid array of `fields` objects is provided instead.
+  /// The text for the block, in the form of a text object. Minimum length for the text in this field is 1 and maximum length is 3000 characters. This field is not required if a valid array of fields objects is provided instead.
   final String? text;
 
-  /// Required if no `text` is provided.
-  /// Any text objects included with `fields` will be rendered in a compact format that allows for 2 columns of side-by-side text.
-  /// Maximum number of items is 10.
-  /// Maximum length for the `text` in each item is 2000 characters.
+  /// Required if no text is provided. An array of text objects. Any text objects included with fields will be rendered in a compact format that allows for 2 columns of side-by-side text. Maximum number of items is 10. Maximum length for the text in each item is 2000 characters.
   final List<Map>? fields;
 
   /// One of the available element objects.

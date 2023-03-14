@@ -4,4 +4,3 @@
 library slack_notification;
 
 export 'src/slack.dart';
-
