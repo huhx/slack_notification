@@ -2,8 +2,6 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:slack_notification/slack_notification.dart';
-import 'package:slack_notification/src/model/block.dart';
-import 'package:slack_notification/src/model/message.dart';
 import 'package:test/test.dart';
 
 void main() {

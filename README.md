@@ -12,7 +12,7 @@ After create `Slack` and add `Webhooks`, remeber the Webhook URL(this data is se
 ### Add dependencies
 ```yaml
 dependencies:
-  flutter_oss_aliyun: ^6.2.2
+  slack_notification: ^1.2.0
 ```
 
 ### Simple usage
