@@ -9,6 +9,11 @@ Before use Incoming Webhooks, we need to create `Slack` app. The setup link: htt
 
 ## Usage
 After create `Slack` and add `Webhooks`, remeber the Webhook URL(this data is sentive include secret, just be careful).
+### Add dependencies
+```yaml
+dependencies:
+  flutter_oss_aliyun: ^6.2.2
+```
 
 ### Simple usage
 ```dart
