@@ -1,3 +1,6 @@
+## 1.2.1
+- update docs add image
+
 ## 1.2.0
 - update docs
 

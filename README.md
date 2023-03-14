@@ -1,6 +1,8 @@
 ## Features
 Incoming Webhooks are a simple way to post messages from apps into Slack. Creating an Incoming Webhook gives you a unique URL to which you send a JSON payload with the message text and some options. You can use all the usual formatting and layout blocks with Incoming Webhooks to make the messages stand out.
 
+![Example message with attachment showing full range of fields](https://a.slack-edge.com/02c4a07/img/api/message_example_with_attachments.png)
+
 **flutter pub**: [https://pub.dev/packages/slack_notification](https://pub.dev/packages/slack_notification)
 
 ## Getting started
@@ -12,7 +14,7 @@ After create `Slack` and add `Webhooks`, remeber the Webhook URL(this data is se
 ### Add dependencies
 ```yaml
 dependencies:
-  slack_notification: ^1.2.0
+  slack_notification: ^1.2.1
 ```
 
 ### Simple usage
